@@ -1,0 +1,7 @@
+/node_modules/
+server/data/schnelle-alltagskueche/*.json
+server/data/gesunde-ernaehrung/*.json
+server/data/vegetarische-vielfalt/*.json
+server/data/low-carb/*.json
+.idea
+.env
