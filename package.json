@@ -1,7 +1,7 @@
 {
-  "name": "template-local-api",
+  "name": "minecraft-recipe-api",
   "version": "1.0.0",
-  "description": "A template express js app to work in my local network",
+  "description": "A small api which provides minecraft vanilla recipes",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server/server.js",

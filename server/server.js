@@ -4,8 +4,6 @@ const express = require('express')
 const Log = require("./helper/Log");
 const MainApiConnector = require("./helper/MainApiConnector");
 
-const adminRouter = require("./routes/admin")
-
 const app = express()
 
 app.use(express.json())
@@ -20,7 +18,7 @@ app.use(function (req, res, next) {
 })
 
 
-app.use("/admin", adminRouter)
+app.use("/api", require("./routes/api"))
 
 app.get('/', async function (req, res) {
     res.json({
