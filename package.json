@@ -2,7 +2,7 @@
   "name": "minecraft-recipe-api",
   "version": "1.0.0",
   "description": "A small api which provides minecraft vanilla recipes",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "dev": "nodemon server/server.js",
     "start": "node server/server.js"
@@ -14,7 +14,8 @@
     "axios": "^0.24.0",
     "dotenv": "^11.0.0",
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "mainapiconnector":"git://github.com/Oskar1504/ope-main-api-connector.git"
   },
   "nodemonConfig": {
     "ignore": [
