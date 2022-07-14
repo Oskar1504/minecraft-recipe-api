@@ -22,7 +22,7 @@ router.get('/ping',async (req, res, next) => {
 router.get('/recipeList',async (req, res, next) => {
     try{
         res.json({
-            data: fs.readdirSync("./server/data/minecraft/recipes/").filter(file => file.endsWith(".json")),
+            data: fs.readdirSync("./server/data/minecraft/recipes/").filter(file => file.endsWith(".json")).map(a => a.replace(".json", "")),
             status:200
         })
 
