@@ -2,7 +2,7 @@ require("dotenv").config()
 const express = require('express')
 
 const Log = require("./helper/Log");
-const MainApiConnector = require("mainapiconnector");
+const MainApiConnector = require("./helper/MainApiConnector");
 
 const app = express()
 

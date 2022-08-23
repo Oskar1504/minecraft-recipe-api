@@ -10,12 +10,12 @@ module.exports = {
                 rejectUnauthorized: false
             }),
             method:"post",
-            url: `${process.env.MAIN_API_HOST_URL}/applications/add?pswd=${process.env.APPLICATION_API_PASSWORD}`,
+            url: `${process.env.MAIN_API_HOST_URL}/apps/add?pswd=${process.env.APPLICATION_API_PASSWORD}`,
             data:{
-                PROJECT_NAME: env.PROJECT_NAME,
-                PROJECT_DESCRIPTION: env.PROJECT_DESCRIPTION,
-                PORT: env.PORT,
-                SELF_HOSTNAME: env.SELF_HOSTNAME,
+                name: env.PROJECT_NAME,
+                description: env.PROJECT_DESCRIPTION,
+                port: env.PORT,
+                host: env.SELF_HOSTNAME,
                 routes: this.getRoutes(app)
             }
         })

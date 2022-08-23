@@ -15,7 +15,7 @@
     "dotenv": "^11.0.0",
     "express": "^4.17.2",
     "nodemon": "^2.0.15",
-    "mainapiconnector":"git://github.com/Oskar1504/ope-main-api-connector.git"
+    "mainapiconnector":"git://github.com/Oskar1504/ope-main-api-connector.git#gateway-v2"
   },
   "nodemonConfig": {
     "ignore": [

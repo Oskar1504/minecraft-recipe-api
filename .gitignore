@@ -5,3 +5,4 @@ server/data/vegetarische-vielfalt/*.json
 server/data/low-carb/*.json
 .idea
 .env
+package-lock.json
